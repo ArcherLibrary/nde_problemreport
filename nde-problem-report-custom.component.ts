@@ -5,8 +5,8 @@ import { CommonModule } from '@angular/common';
   selector: 'custom-report-a-problem',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './report-aproblem-custom.component.html',
-  styleUrl: './report-aproblem-custom.component.scss'
+  templateUrl: './nde-problem-report-custom.component.html',
+  styleUrl: './nde-problem-report-custom.component.scss'
 })
 export class NdeProblemReportCustom implements OnInit {
   @Input() private hostComponent!: any;
