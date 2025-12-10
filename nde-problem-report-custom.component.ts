@@ -8,7 +8,7 @@ import { CommonModule } from '@angular/common';
   templateUrl: './report-aproblem-custom.component.html',
   styleUrl: './report-aproblem-custom.component.scss'
 })
-export class ReportAProblemComponent implements OnInit {
+export class NdeProblemReportCustom implements OnInit {
   @Input() private hostComponent!: any;
   
   reportUrl: string = '';
