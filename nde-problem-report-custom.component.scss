@@ -1,0 +1,40 @@
+div {
+  height: auto;
+  background-color: #e6e6e6;
+}
+
+a {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+}
+
+button {
+  width: auto;
+  height: 3em;
+  border: 0;
+  background-color: #e6e6e6;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 1em;
+}
+
+button:hover {
+  background-color: #f3f3f3;
+}
+
+button span {
+  color: #001337;
+  font-size: 1.2em;
+  height: 100%;
+  font-family: 'Noto Sans Display', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+svg {
+  flex-shrink: 0;
+}
